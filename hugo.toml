@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'nl-nl'
 title = 'Remisepavé 12'
-theme = 'hugo-creative-portfolio-theme'
+theme = 'ananke'
 
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
