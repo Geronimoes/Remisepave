@@ -1,6 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'nl-nl'
 title = 'Remisepavé 12'
+<<<<<<< HEAD
 theme = 'hugo-creative-portfolio-theme'
 
 [params]
@@ -49,3 +50,6 @@ theme = 'hugo-creative-portfolio-theme'
   [[params.navlinks]]
   name = "Bekijk bij Vesta Vastgoed"
   url = "https://vestavastgoed.nl/aanbod/remisepave-12/"
+=======
+theme = 'ananke'
+>>>>>>> 014fef9fcd26d78189a05df574df56aeba017869
