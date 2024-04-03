@@ -7,11 +7,11 @@ theme = 'hugo-creative-portfolio-theme'
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "Een oase van rust, warmte, en groen - in het bruisende hart van Maastricht""
+  description = "Een oase van rust, warmte, en groen - in het bruisende hart van Maastricht"
   copyright = "Kijk gauw op \[Funda\]\(https:\/\/www.funda.nl\/koop\/maastricht\/huis-89892424-remisepave-12\/\)!"
   sidebarAbout = [
-    "<i class="fa-brands fa-pagelines"></i> Op loopafstand van de Hoge en Lage Fronten voor een excursie in spannend groen.",
-    "<i class="fa-solid fa-tree-city"></i> En midden in het bruisende hart van Maastricht, in het veelbelovende Belvédère gebied."
+    "<i class=\"fa-brands fa-pagelines\"></i> Op loopafstand van de Hoge en Lage Fronten voor een excursie in spannend groen.",
+    "<i class=\"fa-solid fa-tree-city\"></i> En midden in het bruisende hart van Maastricht, in het veelbelovende Belvédère gebied."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -49,6 +49,4 @@ theme = 'hugo-creative-portfolio-theme'
   [[params.navlinks]]
   name = "Bekijk bij Vesta Vastgoed"
   url = "https://vestavastgoed.nl/aanbod/remisepave-12/"
-=======
-theme = 'ananke'
->>>>>>> 014fef9fcd26d78189a05df574df56aeba017869
+
