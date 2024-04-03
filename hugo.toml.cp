@@ -1,7 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'nl-nl'
 title = 'Remisepavé 12'
-<<<<<<< HEAD
 theme = 'hugo-creative-portfolio-theme'
 
 [params]
