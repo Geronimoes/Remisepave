@@ -1,4 +1,51 @@
 baseURL = 'https://example.org/'
 languageCode = 'nl-nl'
 title = 'Remisepavé 12'
-theme = 'blist'
+theme = 'hugo-creative-portfolio-theme'
+
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "default"
+  description = "Een oase van rust, warmte, en groen - in het bruisende hart van Maastricht""
+  copyright = "Kijk gauw op \[Funda\]\(https:\/\/www.funda.nl\/koop\/maastricht\/huis-89892424-remisepave-12\/\)!"
+  sidebarAbout = [
+    "<i class="fa-brands fa-pagelines"></i> Op loopafstand van de Hoge en Lage Fronten voor een excursie in spannend groen.",
+    "<i class="fa-solid fa-tree-city"></i> En midden in het bruisende hart van Maastricht, in het veelbelovende Belvédère gebied."
+  ]
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  # email = "you@yoursite.com"
+
+    # Optional Matomo analytics (formerly piwik)
+      # [params.analytics.matomo]
+      #  URL = "https://stats.example.com"
+      #  ID = "42"
+      #  # Track all subdomains with "*.example.com" (Optional)
+      #  domain = "www.example.com"
+      #  # Optional integrity check hash
+      #  hash = ""
+
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Thuis"
+  url = "thuis/"
+  home = true
+
+  [[params.navlinks]]
+  name = "Bekijk op Funda"
+  url = "https://www.funda.nl/koop/maastricht/huis-89892424-remisepave-12/"
+
+  [[params.navlinks]]
+  name = "Bekijk bij Vesta Vastgoed"
+  url = "https://vestavastgoed.nl/aanbod/remisepave-12/"
